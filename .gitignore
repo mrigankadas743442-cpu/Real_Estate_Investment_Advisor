@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datasets
+*.csv
+*.xlsx
+
+# ML models
+models/
+*.pkl
+*.joblib
+
+# MLflow
+mlflow.db
+mlflow_artifacts/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
