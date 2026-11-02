@@ -13,7 +13,7 @@ import streamlit as st
 # 1. PROJECT PATHS
 # ==================================================
 
-BASE_DIR = "/content/drive/MyDrive/RealEstateInvestmentAdvisor"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 DATA_PATH = os.path.join(
